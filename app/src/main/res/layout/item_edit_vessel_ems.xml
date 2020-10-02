@@ -120,6 +120,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/registry_number"
                     android:imeOptions="actionNext"
+                    android:inputType="number"
                     android:nextFocusDown="@id/delivery_location"
                     android:singleLine="true"
                     android:text="@={emsItem.ems.registryNumber}" />
